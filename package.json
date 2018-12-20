@@ -1,0 +1,19 @@
+{
+  "name": "apt-app",
+  "version": "1.0.0",
+  "description": "Send notifications to those within your group about chores",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LPG-Partners/apt-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LPG-Partners/apt-app/issues"
+  },
+  "homepage": "https://github.com/LPG-Partners/apt-app#readme"
+}
