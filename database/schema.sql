@@ -1,6 +1,7 @@
 /* this will delete and crete apartmentApp database*/
 drop database if exists apartmentApp;
 create database apartmentApp;
+ 
 
 /* this will enter database*/
 use apartmentApp;
