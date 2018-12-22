@@ -7,10 +7,9 @@ use apartmentApp;
 
 /* this will create user database*/
 create table users(
-  userID integer primary key,
-  email text,
-  userName text,
-  password text,
+  userID integer primary key AUTOINCREMENT,
+  email text NOT NULL,
+  password text NOT NULL,
   securityQ1 text,
   securityQ2 text,
   securityQ3 text,
