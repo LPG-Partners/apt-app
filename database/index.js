@@ -7,13 +7,15 @@ var connection = mysql.createConnection({
 });
 
 // connect here once so you dont have to connect each time you have a get request or other type of request
-connection.connect(function (err) {
-  if (err) {
-    throw err;
-  }
-  console.log('connected');
-});
+connection.connect();
 //
+
+connection.query(`INSERT into users VALUES (1, 'user@example.com', 'password', null, null, 'c');`, function (error, results, fields) {
+  if (error) throw error;
+  console.log('The solution is: ', results[0].solution);
+});
+
+
 
 
 exports.connection = connection;
