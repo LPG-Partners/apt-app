@@ -1,6 +1,6 @@
 const mysql = require('mysql');
 
-var connection = mysql.createConnection({
+const connection = mysql.createConnection({
   user: 'root',
   password: 'password',
   database: 'apartmentApp',
@@ -10,10 +10,10 @@ var connection = mysql.createConnection({
 connection.connect();
 //
 
-connection.query(`INSERT into users VALUES (1, 'isai', 'lopez', 'user@example.com', 'password', '4157863592', null);`, function (error, results, fields) {
-  if (error) throw error;
-  console.log('user 1 created');
-});
+// connection.query(`Select * from users u where u.user_phone_number = 20`, function (error, results, fields) {
+//   if (error) throw error;
+//   // console.log(results, fields);
+// });
 
 
 
