@@ -8,7 +8,7 @@ use apartmentApp;
 
 /* this will create user database*/
 create table users(
-  unique_user_id integer primary key,
+  unique_user_id integer primary key auto_increment,
   user_first_name text not null,
   user_last_name text not null,
   user_email text not null,
