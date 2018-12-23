@@ -1,9 +1,9 @@
-var mysql = require('mysql');
+const mysql = require('mysql');
 
 var connection = mysql.createConnection({
   host: 'localhost', //optional add port # to specify
   user: 'root',
-  database: 'aptApp',
+  database: 'apartmentApp',
 });
 
 // connect here once so you dont have to connect each time you have a get request or other type of request
