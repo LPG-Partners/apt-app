@@ -10,14 +10,11 @@ use apartmentApp;
 create table users(
   unique_user_id integer primary key,
   user_first_name text not null,
-  user_last_name text not null, 
+  user_last_name text not null,
   user_email text not null,
   user_password text not null,
   user_phone_number VARCHAR(10),
   user_recovery_email text,
-  securityQ1 text,
-  securityQ2 text,
-  securityQ3 text
 );
 
 /* this will create group database*/
