@@ -14,7 +14,7 @@ create table users(
   user_email text not null,
   user_password text not null,
   user_phone_number VARCHAR(10),
-  user_recovery_email text,
+  user_recovery_email text
 );
 
 /* this will create group database*/
