@@ -2,7 +2,7 @@ const mysql = require('mysql');
 
 var connection = mysql.createConnection({
   user: 'root',
-  password: '',
+  password: 'password',
   database: 'apartmentApp',
 });
 
@@ -12,7 +12,7 @@ connection.connect();
 
 connection.query(`INSERT into users VALUES (1, 'user@example.com', 'password', null, null, 'c');`, function (error, results, fields) {
   if (error) throw error;
-  console.log('The solution is: ', results[0].solution);
+  console.log('user 1 created');
 });
 
 
@@ -22,3 +22,5 @@ exports.connection = connection;
 // Create a database connection and export it from this file.
 // You will need to connect with the user "root", no password,
 // and to the database "apartmentApp".
+
+connection.end(); 
