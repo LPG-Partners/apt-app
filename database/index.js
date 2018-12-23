@@ -10,7 +10,7 @@ var connection = mysql.createConnection({
 connection.connect();
 //
 
-connection.query(`INSERT into users VALUES (1, 'user@example.com', 'password', null, null, 'c');`, function (error, results, fields) {
+connection.query(`INSERT into users VALUES (1, 'isai', 'lopez', 'user@example.com', 'password', '4157863592', null ,null, null, 'c');`, function (error, results, fields) {
   if (error) throw error;
   console.log('user 1 created');
 });

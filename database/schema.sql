@@ -8,9 +8,13 @@ use apartmentApp;
 
 /* this will create user database*/
 create table users(
-  user_id integer primary key auto_increment,
-  email text not null,
-  password text not null,
+  unique_user_id integer primary key,
+  user_first_name text not null,
+  user_last_name text not null, 
+  user_email text not null,
+  user_password text not null,
+  user_phone_number VARCHAR(10),
+  user_recovery_email text,
   securityQ1 text,
   securityQ2 text,
   securityQ3 text
@@ -22,7 +26,7 @@ CREATE TABLE aptGroups (
    group_id int not null auto_increment,
    leader_id int not null,
    primary key (group_id),
-   foreign key (leader_id) references users(user_id)
+   foreign key (leader_id) references users(unique_user_id)
 );
 
 /* this will create group_user database*/
@@ -32,5 +36,5 @@ create table groupUserRelationship(
   user_id int,
   primary key (group_user_relationship_id),
   foreign key (group_id) references aptGroups(group_id),
-  foreign key (user_id) references users(user_id)
+  foreign key (user_id) references users(unique_user_id)
 );
