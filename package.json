@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/LPG-Partners/apt-app/issues"
   },
-  "homepage": "https://github.com/LPG-Partners/apt-app#readme"
+  "homepage": "https://github.com/LPG-Partners/apt-app#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  }
 }
