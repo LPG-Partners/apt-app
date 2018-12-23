@@ -4,7 +4,9 @@
   "description": "Send notifications to those within your group about chores",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -d --watch",
+    "start": "node server/index.js"
   },
   "repository": {
     "type": "git",
