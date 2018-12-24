@@ -1,0 +1,13 @@
+#topBar {
+  display: flex;
+  flex-direction: row;
+  height: 10%;
+}
+
+#signUp {
+  left: 20px;
+}
+
+#signIn {
+  right: 20px; 
+}
