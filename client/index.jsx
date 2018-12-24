@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import topbar from './components/topbar.jsx';
+import TopBar from './components/topbar.jsx';
 
-ReactDOM.render(<topbar />, document.getElementById('app'));
+console.log("hello");
+
+ReactDOM.render(<TopBar/>, document.getElementById('app'));
