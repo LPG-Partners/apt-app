@@ -2,7 +2,7 @@ alert("this is working");
 
 import React from 'react';
 
-class topBar extends React.Component {
+class TopBar extends React.Component {
   constructor(props){
     super(props);
     this.state = {};
@@ -17,4 +17,4 @@ class topBar extends React.Component {
   }
 };
 
-export default topBar;
+export default TopBar;
