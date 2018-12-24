@@ -2,12 +2,17 @@
   display: flex;
   flex-direction: row;
   height: 10%;
+  border: 5px solid grey;
 }
 
 #signUp {
-  left: 20px;
+  margin-right: 40%
 }
 
 #signIn {
-  right: 20px; 
+margin-left: 47%
+}
+
+.signInButton, .signUpButton {
+
 }

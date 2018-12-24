@@ -10,13 +10,13 @@ class TopBar extends React.Component {
     return (
       <div id = 'topBar'>
         <div id = 'signUp'>
-        <h1> Sign Up</h1>
+          <button class = "signUpButton "> Sign Up</button>
         </div>
         <div id = 'title'>
-        <h1> Title</h1>
+          <h1> Title</h1>
         </div>
         <div id = 'signIn'>
-        <h1> Sign In</h1>
+          <button class = "signInButton"> Sign In</button>
         </div>
       </div>
     )
