@@ -20,6 +20,3 @@ module.exports = {
 	  path: __dirname + '/public'
   }
 }
-
-
-

@@ -1,5 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TopBar from './components/topbar.jsx';
+import HomePage from './components/homePage.jsx';
+import {
+Route,
+NavLink,
+BrowserRouter
+} from "react-router-dom";
 
-ReactDOM.render(<TopBar/>, document.getElementById('app'));
+
+ReactDOM.render(<HomePage/>, document.getElementById('app'));
