@@ -30,7 +30,7 @@ class SignUpPage extends React.Component {
           <input type="password" placeholder="Repeat Password" name="psw-repeat" required/>
 
           <label for="phone"><b>Enter Phone Number</b></label>
-          <input type="tel" id="phone" name="phone" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+          <input type="tel" id="phone" name="phone" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/>
 
           <hr/>
           <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>

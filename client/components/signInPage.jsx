@@ -9,7 +9,7 @@ class SignInPage extends React.Component {
   render() {
     return (
       <form>
-      <div class="container">
+      <div className="container">
         <h1>Log In</h1>
         <hr/>
 
@@ -20,14 +20,12 @@ class SignInPage extends React.Component {
         <input type="password" placeholder="Enter Password" name="psw" required/>
         <hr/>
         <button type="submit">Login</button>
-        <label for = "remeberMe"> Remember me</label>
-        <input type="checkbox" checked="checked" name="remember"/>
 
       </div>
 
-        <div class="container">
-          <button type="button" class="cancelbtn">Cancel</button>
-          <span class="psw">Forgot <a href="#">password?</a></span>
+        <div className="container">
+          <button type="button" className="cancelbtn">Cancel</button>
+          <span className="psw">Forgot <a href="#">password?</a></span>
         </div>
         </form>
     );

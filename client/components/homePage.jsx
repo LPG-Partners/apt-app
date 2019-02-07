@@ -23,8 +23,8 @@ class HomePage extends React.Component {
           <ul className="header">
             <li><NavLink exact to="/">Home</NavLink> </li>
             <li><NavLink exact to="/aboutus">About Us</NavLink></li>
-            <li><button class = "signUpButton "><NavLink to="/signUpPage">Sign Up</NavLink></button></li>
-            <li><button class = "signInButton "><NavLink to="/signInPage">Sign In</NavLink></button></li>
+            <li><button className= "signUpButton "><NavLink to="/signUpPage">Sign Up</NavLink></button></li>
+            <li><button className= "signInButton "><NavLink to="/signInPage">Sign In</NavLink></button></li>
           </ul>
           <div className="content">
               <Route exact path="/" component={TopBar} />
